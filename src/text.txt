@@ -30,6 +30,25 @@
  
 9/12/2025
 
+## structure
+
+    applaciation
+
+        node module             -- all installed dependencies..
+        puplic                  -- public assets  like img
+        src                     --main source folder
+            assets              -- images ,svg
+            components          -- UI parts
+            App.jsx             -- main app component
+            main.jsx            --  starting point of our Applications
+            index.css           -- global styleing file
+        .gitignore              -- tells git which files to ignore
+        package.json            -- Project info & dependencies
+        package-lock.json       -- it represent node modules dependencies and version
+        vite.config.json        -- vite configuration files
+        READM.module            -- project documentation.
+        
+
 ## props
 
     props is  nothing but passing data from one
@@ -51,7 +70,9 @@
         t,f=false
         f,f=false
 
-## useState()
+10/12/2025
+
+## useState() and handleing forms
 
     useState is a react hook that allows you to add state (data that can 
     changes over time) to a functional component.
@@ -65,3 +86,5 @@
         state---the current value of the state variable.
         setState--- a function that updates the state.
         initiate_state-- the starting value  of the state.
+
+## list

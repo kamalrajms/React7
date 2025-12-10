@@ -3,6 +3,10 @@ import Greeting from "./Greeting";
 import Props from "./Props";
 import ConditionalRendering from "./Component/ConditionalRendering";
 import UseStateHook from "./Component/UseStateHook";
+import DarkTheme from "./Component/DarkTheme";
+import UsestateForm from "./Component/UsestateForm";
+import Form from "./Component/Form";
+import RegisterForm from "./Component/RegisterForm";
 
 export default function App() {
   const name = "Hari";
@@ -10,6 +14,10 @@ export default function App() {
 
   return (
     <>
+      <RegisterForm />
+      <Form />
+      <UsestateForm />
+      <DarkTheme />
       <UseStateHook />
       <ConditionalRendering />
       <Props name={name} age={age} />
