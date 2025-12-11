@@ -34,7 +34,7 @@ export default function RegisterForm() {
     console.log(formData);
   };
   return (
-    <div>
+    <div className="RegisterForm">
       <form onSubmit={handleForm}>
         <h2>Register form</h2>
         {error && <p style={{color:"red"}}>{error}</p>}

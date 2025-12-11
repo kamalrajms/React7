@@ -87,4 +87,33 @@
         setState--- a function that updates the state.
         initiate_state-- the starting value  of the state.
 
-## list
+11/12/2025
+
+## styleing in react 
+
+    Global style   --index.ccs,App.css
+    External style  -- seperate css file
+    Inline style
+    module way of style ---  we need to  add the extenser as [fileName.module.css]
+    Object style
+
+## list rendering
+
+    Rendering multiple items dynamically using .map()
+
+
+## useEffect()
+
+    In react ,useEffect is a Hook that lets you perform side effect
+    in functional component.
+    Side Efect are task that happends  outside the normal react process ,like:
+
+            Fetch data from an API
+            Updating the browser
+            starting/stoping timers
+
+    syntex:
+
+        useEffect(()=>{
+            //code
+        },[dependencie1,dependencie2....])

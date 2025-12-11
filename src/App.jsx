@@ -7,6 +7,8 @@ import DarkTheme from "./Component/DarkTheme";
 import UsestateForm from "./Component/UsestateForm";
 import Form from "./Component/Form";
 import RegisterForm from "./Component/RegisterForm";
+import ListRendering from "./Component/ListRendering";
+import UseEffectHook from "./Component/UseEffectHook";
 
 export default function App() {
   const name = "Hari";
@@ -14,6 +16,8 @@ export default function App() {
 
   return (
     <>
+      <UseEffectHook />
+      <ListRendering />
       <RegisterForm />
       <Form />
       <UsestateForm />

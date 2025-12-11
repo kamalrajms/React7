@@ -1,0 +1,15 @@
+.Greeting {
+  background-color: blueviolet;
+  color: aliceblue;
+}
+.RegisterForm {
+  background-color: red;
+  color: antiquewhite;
+  padding: 20px;
+}
+.Condition {
+  margin: 200px;
+}
+.useStateForm {
+  margin: 200px;
+}

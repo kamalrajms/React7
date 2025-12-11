@@ -14,8 +14,14 @@ export default function Form() {
       [name]: value,
     });
   };
+  const theme = {
+    backgroundColor: "yellow",
+    color: "#000",
+    padding: "20px",
+  };
+
   return (
-    <div>
+    <div style={theme}>
       <h2>Multiple form</h2>
       <input
         type="text"

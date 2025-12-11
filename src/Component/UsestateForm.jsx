@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Style from "./Usestate.module.css";
 
 export default function UsestateForm() {
   const [name, setName] = useState("react");
@@ -7,7 +8,7 @@ export default function UsestateForm() {
   //   console.log(isChecked);
 
   return (
-    <div>
+    <div className={Style.useStateForm}>
       <h2>Controlled text input</h2>
       <input
         type="text"

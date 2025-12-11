@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Greeting(props) {
   return (
-    <div>
+    <div className="Greeting">
       <h1>
         React class--{props.FirstName}---{props.age}
       </h1>
