@@ -9,6 +9,9 @@ import Form from "./Component/Form";
 import RegisterForm from "./Component/RegisterForm";
 import ListRendering from "./Component/ListRendering";
 import UseEffectHook from "./Component/UseEffectHook";
+import UseeffectTimer from "./Component/UseeffectTimer";
+import UseEffectAPIBasic from "./Component/UseEffectAPIBasic";
+import UseRefHook from "./Component/UseRefHook";
 
 export default function App() {
   const name = "Hari";
@@ -16,6 +19,10 @@ export default function App() {
 
   return (
     <>
+      <h2>useRef</h2>
+      <UseRefHook />
+      <UseEffectAPIBasic />
+      <UseeffectTimer />
       <UseEffectHook />
       <ListRendering />
       <RegisterForm />

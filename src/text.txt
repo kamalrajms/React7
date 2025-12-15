@@ -117,3 +117,35 @@
         useEffect(()=>{
             //code
         },[dependencie1,dependencie2....])
+
+    API integration by fetch,axios
+
+15/12/2025
+
+## useRef()
+
+    useRef is a reacct hook that given you a box(.current) you can store anything 
+    in- num,str,obj,function,even DOM element,array.
+
+    that valuue persists between renders
+
+    Updating it does not causes your component to re-render.
+
+    {current:value}
+
+
+## https  means communication b/w client and serve  ,s-security.
+
+## domain
+
+    .com ---commercial
+    .org--- Organization
+    .net--- network
+    .edu--- education
+    .gov---government
+    .mil-- Military
+    .co-- company
+    .info--information
+    .in-india
+    .biz-Business
+
