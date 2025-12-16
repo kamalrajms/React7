@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext, createContext } from "react";
 import Greeting from "./Greeting";
 import Props from "./Props";
 import ConditionalRendering from "./Component/ConditionalRendering";
@@ -12,6 +12,9 @@ import UseEffectHook from "./Component/UseEffectHook";
 import UseeffectTimer from "./Component/UseeffectTimer";
 import UseEffectAPIBasic from "./Component/UseEffectAPIBasic";
 import UseRefHook from "./Component/UseRefHook";
+import First from "./Context/First";
+
+export const Pass = createContext();
 
 export default function App() {
   const name = "Hari";
@@ -19,6 +22,12 @@ export default function App() {
 
   return (
     <>
+      <div style={{ border: "2px solid black", padding: "30px" }}>
+        App component
+        <Pass.Provider value={name}>
+          <First />
+        </Pass.Provider>
+      </div>
       <h2>useRef</h2>
       <UseRefHook />
       <UseEffectAPIBasic />

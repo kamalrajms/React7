@@ -13,3 +13,18 @@
 .useStateForm {
   margin: 200px;
 }
+
+.Img-Container {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  cursor: pointer;
+  background-color: aqua;
+}
+.image {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  cursor: pointer;
+  /* background-color: aqua; */
+}
