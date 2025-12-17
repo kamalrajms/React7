@@ -162,3 +162,19 @@
             create a context
             Provide a value
             Consume the value
+17/12/2025
+
+## multi Select dropdown
+
+## useReducer()
+
+    Syntex:
+        const [state,dispatch]=useReducer(reducerFunction,initialState)
+
+        state-- current state (like usestate value)
+        dispatch(action)-- a function to  tell the  reducer what do do
+        reducerFunction(state,action)-- the logic that return a new state
+        initialState-- starting value
+
+
+
