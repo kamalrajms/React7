@@ -166,6 +166,7 @@
 
 ## multi Select dropdown
 
+18/12/2025
 ## useReducer()
 
     Syntex:
@@ -177,4 +178,17 @@
         initialState-- starting value
 
 
+## useCallBack()
 
+    Every time a component re-render, it creates a brand-new copy of function 
+    insside it.
+
+    Even if the function's code looks exactly the same.
+
+    react sees it as different because it's a new object in menory.
+
+    Syntex:
+
+        const variable_name=useCallBack(()=>{
+            //code
+        },[declearing,dependencie2,......])

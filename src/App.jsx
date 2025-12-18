@@ -16,6 +16,8 @@ import First from "./Context/First";
 import MultiSelectDropdown from "./Component/MultiSelectDropdown";
 import ContextForm from "./Context/ContextForm";
 import UseReducerHook from "./Component/UseReducerHook";
+import ReducerForm from "./Component/ReducerForm";
+import UseCallBackHook from "./Component/UseCallBackHook";
 
 export const Pass = createContext();
 
@@ -28,6 +30,8 @@ export default function App() {
 
   return (
     <>
+      <UseCallBackHook />
+      <ReducerForm />
       <UseReducerHook />
       <Pass.Provider value={{ setMode, mode, data }}>
         <ContextForm />
