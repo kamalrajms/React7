@@ -192,3 +192,49 @@
         const variable_name=useCallBack(()=>{
             //code
         },[declearing,dependencie2,......])
+
+19/12/2025
+
+## Routing in react && nested routing
+
+    Routing means navigating between different pages in a web applaciation
+    without refreshing the browser.
+
+    In Tradition webSites ,Clicking a link reloades the whole Applications.
+
+    In react (a single page application) routing lets us changes the view without reloading.
+
+                Better performance (no full page reloads)
+                Smooth user experience
+                Control over navigation without server request.
+
+    commend: npm install react-router-dom
+
+    Structure:
+
+            <BrouserRouter>
+            <Routes>
+            <Route path="address path" element={<component1/>}/>
+            <Route path="address path" element={<component2/>}/>
+            <Route path="address path" element={<component3/>}/>
+            <Routes path="address path" element={<component4/>}/>
+            </Routes>
+            </BrouserRouter>
+
+            BrouserRouter
+                it is the main wrapper component for   routing in React app.
+                It enables navigating using the browser URL's  (history)
+
+            Routes
+                It contains all the <Route/> component
+                It tells react Router which component to show for which path
+            
+            Route
+
+                Defines a specific url path and which component should lood  for
+                the path.
+
+## useNavigate() --- routing dom
+
+    useNavigate  is used to navigating between page as logica;lly.
+
