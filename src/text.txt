@@ -22,14 +22,14 @@
     Instead of reloading a whole webpage when something changes, React updates only the parts of the UI that need to change.
 
     -------
-    Why do we need React?
+    Why do we need React? 
 
 	It makes UI development faster, cleaner, and more efficient.
 
 	Provides a better user experience with smooth updates without page reloads.
  
 9/12/2025
-
+  
 ## structure
 
     applaciation
@@ -238,3 +238,12 @@
 
     useNavigate  is used to navigating between page as logica;lly.
 
+22/12/2025
+
+## Useparam() -- routing dom
+
+        useParams() is a React Router hook that lets you read dynamic values from the URL path (not from the query string).
+
+		It’s commonly used when you have routes with dynamic segments like /users/:id or /products/:productId.
+
+## DM Delay buttom (mini chat application)
