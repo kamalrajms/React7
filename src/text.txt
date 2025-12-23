@@ -247,3 +247,15 @@
 		It’s commonly used when you have routes with dynamic segments like /users/:id or /products/:productId.
 
 ## DM Delay buttom (mini chat application)
+
+23/12/2025
+
+## API integration 
+
+## custom Hook in react
+
+    A custom Hook is  a reusable function in React that contains logic using hooks(like usestate,useEffect)
+    It allows you to share stateful logic between multiple component without repeating code.
+    The name of a custom hook must be start with use ,such as useFetch or useLocalStorage.
+
+    
