@@ -259,3 +259,52 @@
     The name of a custom hook must be start with use ,such as useFetch or useLocalStorage.
 
     
+## UseId()
+
+    UseId () is a  react hook that creates a unique and Stable ID for 
+    each component.
+
+## XO-game
+
+## structure of Axios data
+
+    variable_name={
+        data:[
+                {
+                    key:"value",
+                    key:"value",
+                },
+                {
+                    key:"value",
+                    key:"value",
+                },
+                {
+                    key:"value",
+                    key:"value",
+                },
+                all the data belongs to API...],
+        status:200,
+        statesText:"ok",
+        headers:{},
+        config:{}
+    }
+
+## structure for Fetch
+
+    variable_name=[
+        {
+            "key":"value",
+            "key":"value",
+            "key":"value",
+        },
+        {
+            "key":"value",
+            "key":"value",
+            "key":"value",
+        },
+        {
+            "key":"value",
+            "key":"value",
+            "key":"value",
+        },
+    ]

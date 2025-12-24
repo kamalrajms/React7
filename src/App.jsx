@@ -74,6 +74,7 @@ export default function App() {
           <Greeting />
         </div>
       )}
+      
       <BrowserRouter>
         <div className="Header">
           <Link to={""}>Home</Link>

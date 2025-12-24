@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import useCustomAPI from "../Component/useCustomAPI";
+import UseIdHook from "../Component/UseIdHook";
 
 export default function Home() {
   const {
@@ -22,6 +23,9 @@ export default function Home() {
 
   return (
     <div>
+      <UseIdHook />
+      <UseIdHook />
+      <UseIdHook />
       <h3>userDAta</h3>
       {user.map((user) => (
         <h4 key={user.id}>{user.name}</h4>
