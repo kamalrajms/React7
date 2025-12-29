@@ -258,7 +258,9 @@
     It allows you to share stateful logic between multiple component without repeating code.
     The name of a custom hook must be start with use ,such as useFetch or useLocalStorage.
 
-    
+
+24/12/2025     
+
 ## UseId()
 
     UseId () is a  react hook that creates a unique and Stable ID for 
@@ -293,7 +295,7 @@
 
     variable_name=[
         {
-            "key":"value",
+            "key":"value",  
             "key":"value",
             "key":"value",
         },
@@ -308,3 +310,10 @@
             "key":"value",
         },
     ]
+
+29/12/2025
+
+## Netlify --- 
+
+
+thank you....
